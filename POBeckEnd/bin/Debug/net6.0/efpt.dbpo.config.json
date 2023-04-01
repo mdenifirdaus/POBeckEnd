@@ -1,0 +1,57 @@
+﻿{
+   "CodeGenerationMode": 2,
+   "ContextClassName": "DbPOContext",
+   "ContextNamespace": null,
+   "DefaultDacpacSchema": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": "Models",
+   "PreserveCasingWithRegex": true,
+   "ProjectRootNamespace": "POBeckEnd",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 0,
+   "Tables": [
+      {
+         "Name": "[dbo].[tbl_po_customer]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tbl_po_detail]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tbl_po_header]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tbl_po_shipment]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tbl_po_vendor]",
+         "ObjectType": 0
+      }
+   ],
+   "UiHint": "NB-IT57.DbPO",
+   "UncountableWords": null,
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDateOnlyTimeOnly": false,
+   "UseDbContextSplitting": false,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": false,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UseSchemaFolders": false,
+   "UseSpatial": false,
+   "UseT4": false
+}
