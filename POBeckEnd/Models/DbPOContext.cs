@@ -30,7 +30,9 @@ namespace POBeckEnd.Models
             {
                 entity.ToTable("tbl_po_customer");
 
-                entity.Property(e => e.Id).HasColumnName("id");
+                entity.Property(e => e.Id)
+                    .ValueGeneratedNever()
+                    .HasColumnName("id");
 
                 entity.Property(e => e.Alamat)
                     .HasMaxLength(200)
@@ -84,7 +86,9 @@ namespace POBeckEnd.Models
             {
                 entity.ToTable("tbl_po_detail");
 
-                entity.Property(e => e.Id).HasColumnName("id");
+                entity.Property(e => e.Id)
+                    .ValueGeneratedNever()
+                    .HasColumnName("id");
 
                 entity.Property(e => e.CreatedBy)
                     .HasMaxLength(50)
@@ -140,7 +144,9 @@ namespace POBeckEnd.Models
             {
                 entity.ToTable("tbl_po_header");
 
-                entity.Property(e => e.Id).HasColumnName("id");
+                entity.Property(e => e.Id)
+                    .ValueGeneratedNever()
+                    .HasColumnName("id");
 
                 entity.Property(e => e.AlamatPerusahaan)
                     .HasMaxLength(100)
@@ -232,7 +238,9 @@ namespace POBeckEnd.Models
             {
                 entity.ToTable("tbl_po_shipment");
 
-                entity.Property(e => e.Id).HasColumnName("id");
+                entity.Property(e => e.Id)
+                    .ValueGeneratedNever()
+                    .HasColumnName("id");
 
                 entity.Property(e => e.CreatedBy)
                     .HasMaxLength(50)
@@ -271,7 +279,9 @@ namespace POBeckEnd.Models
             {
                 entity.ToTable("tbl_po_vendor");
 
-                entity.Property(e => e.Id).HasColumnName("id");
+                entity.Property(e => e.Id)
+                    .ValueGeneratedNever()
+                    .HasColumnName("id");
 
                 entity.Property(e => e.Alamat)
                     .HasMaxLength(200)

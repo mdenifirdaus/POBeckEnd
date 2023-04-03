@@ -20,7 +20,7 @@ namespace POBeckEnd.Controllers
         }
 
         [HttpPost("insert/po")]
-        public async Task<IActionResult> InsertPO([FromBody] TblPoHeader poModels)
+        public async Task<IActionResult> InsertPO([FromBody] PurchaseOrderViewModels poModels)
         {
             var d = await _purchaseOrderRepository.InsertPurchaseOrder(poModels);
             return Ok(d);
